@@ -3291,7 +3291,7 @@
           {
             "component": "text",
             "name": "name",
-            "label": "Reset Button Name",
+            "label": "Name",
             "valueType": "string",
             "required": true,
             "valueFormat": "regexp",
@@ -3749,7 +3749,6 @@
   },
   {
     "id": "text-input",
-    "title": "Text Input",
     "fields": [
       {
         "component": "container",
@@ -4079,6 +4078,11 @@
     "fields": [
       {
         "component": "container",
+        "name": "component-name",
+        "label": "Accordion"
+      },
+      {
+        "component": "container",
         "name": "basic",
         "label": "Basic",
         "collapsible": false,
@@ -4225,6 +4229,11 @@
     "fields": [
       {
         "component": "container",
+        "name": "component-name",
+        "label": "Modal"
+      },
+      {
+        "component": "container",
         "name": "basic",
         "label": "Basic",
         "collapsible": false,
@@ -4369,6 +4378,11 @@
   {
     "id": "password",
     "fields": [
+      {
+        "component": "container",
+        "name": "component-name",
+        "label": "Password"
+      },
       {
         "component": "container",
         "name": "basic",
@@ -4585,6 +4599,10 @@
   {
     "id": "range",
     "fields": [
+      {
+        "name": "component-name",
+        "label": "Range"
+      },
       {
         "component": "container",
         "name": "basic",
@@ -4804,6 +4822,11 @@
     "fields": [
       {
         "component": "container",
+        "name": "component-name",
+        "label": "Rating"
+      },
+      {
+        "component": "container",
         "name": "basic",
         "label": "Basic",
         "collapsible": false,
@@ -5006,6 +5029,11 @@
     "fields": [
       {
         "component": "container",
+        "name": "component-name",
+        "label": "Terms and conditions"
+      },
+      {
+        "component": "container",
         "name": "basic",
         "label": "Basic",
         "collapsible": false,
@@ -5156,6 +5184,11 @@
   {
     "id": "wizard",
     "fields": [
+      {
+        "component": "container",
+        "name": "component-name",
+        "label": "Wizard"
+      },
       {
         "component": "container",
         "name": "basic",
