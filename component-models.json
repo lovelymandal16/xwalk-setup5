@@ -3276,19 +3276,19 @@
   },
   {
     "id": "form-reset-button",
-    
+    "title": "Reset Button",
     "fields": [
+      {
+        "component": "container",
+        "name": "component-name",
+        "label": "Reset Button"
+      },
       {
         "component": "container",
         "name": "basic",
         "label": "Basic",
         "collapsible": false,
         "fields": [
-          {
-            "component": "container",
-            "name": "component-name",
-            "label": "Reset Button"
-          },
           {
             "component": "text",
             "name": "name",
@@ -3750,6 +3750,7 @@
   },
   {
     "id": "text-input",
+    "title": "Text Input",
     "fields": [
       {
         "component": "container",
