@@ -3276,7 +3276,6 @@
   },
   {
     "id": "form-reset-button",
-    "title": "Reset Button",
     "fields": [
       {
         "component": "container",
@@ -3292,7 +3291,7 @@
           {
             "component": "text",
             "name": "name",
-            "label": "Name",
+            "label": "Reset Button Name",
             "valueType": "string",
             "required": true,
             "valueFormat": "regexp",
