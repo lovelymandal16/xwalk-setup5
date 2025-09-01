@@ -15,11 +15,11 @@
         }
       }
     },
-    {
-      "...": "./models/form-components/_*.json#/definitions"
-    },
     { 
       "...": "./components/accordion/_accordion.json#/definitions" 
+    },
+    {
+      "...": "./models/form-components/_*.json#/definitions"
     },
     { 
       "...": "./components/modal/_modal.json#/definitions" 
@@ -191,29 +191,29 @@
       "id": "form",
       "components": [
         "form-accordion",
-        "captcha", 
-        "checkbox-group",
-        "date-input",
-        "drop-down",
-        "email",
-        "file-input",
-        "form-button",
-        "form-fragment",
-        "form-image",
-        "modal",
-        "number-input",
-        "panel",
-        "password",
-        "telephone-input",
-        "radio-group",
-        "rating",
-        "form-reset-button",
-        "checkbox",
-        "plain-text",
-        "form-submit-button",
-        "tnc",
-        "text-input",
-        "wizard",
+      "captcha", 
+      "checkbox-group",
+      "date-input",
+      "drop-down",
+      "email",
+      "file-input",
+      "form-button",
+      "form-fragment",
+      "form-image",
+      "modal",
+      "number-input",
+      "panel",
+      "password",
+      "telephone-input",
+      "radio-group",
+      "rating",
+      "form-reset-button",
+      "checkbox",
+      "plain-text",
+      "form-submit-button",
+      "tnc",
+      "text-input",
+      "wizard",
         "range"
       ]
     }
