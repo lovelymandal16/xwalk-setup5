@@ -81,11 +81,11 @@
     { 
       "...": "./components/tnc/_tnc.json#/definitions" 
     },
-    { 
-      "...": "./components/wizard/_wizard.json#/definitions" 
-    },
     {
       "...": "./models/form-components/_text-input.json#/definitions"
+    },
+    { 
+      "...": "./components/wizard/_wizard.json#/definitions" 
     }
   ],
   "models": [

@@ -589,6 +589,21 @@
           }
         },
         {
+          "title": "Text Field",
+          "id": "text-input",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/textinput/v1/textinput",
+                "template": {
+                  "jcr:title": "Text Field",
+                  "fieldType": "text-input"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Wizard",
           "id": "wizard",
           "plugins": {
@@ -610,21 +625,6 @@
                     "fieldType": "panel",
                     "sling:resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer"
                   }
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Text Field",
-          "id": "text-input",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/fd/components/form/textinput/v1/textinput",
-                "template": {
-                  "jcr:title": "Text Field",
-                  "fieldType": "text-input"
                 }
               }
             }
