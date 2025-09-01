@@ -185,6 +185,21 @@
           }
         },
         {
+          "title": "Captcha (Invisible reCAPTCHA)",
+          "id": "captcha",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/recaptcha/v1/recaptcha",
+                "template": {
+                  "jcr:title": "Captcha (Invisible reCAPTCHA)",
+                  "fieldType": "captcha"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Modal",
           "id": "form-modal",
           "plugins": {

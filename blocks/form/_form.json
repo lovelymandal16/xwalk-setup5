@@ -19,7 +19,7 @@
       "...": "./components/accordion/_accordion.json#/definitions" 
     },
     {
-      "...": "./models/form-components/_recaptcha/_*.json#/definitions"
+      "...": "./models/form-components/_recaptcha.json#/definitions"
     },
     {
       "...": "./models/form-components/_checkbox-group/_*.json#/definitions"
