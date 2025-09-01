@@ -452,6 +452,22 @@
           }
         },
         {
+          "title": "Rating",
+          "id": "rating",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
+                "template": {
+                  "jcr:title": "Rating",
+                  "fieldType": "number-input",
+                  "fd:viewType": "rating"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Reset Form Button",
           "id": "form-reset-button",
           "plugins": {
@@ -609,22 +625,6 @@
                 "template": {
                   "jcr:title": "Text Field",
                   "fieldType": "text-input"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Rating",
-          "id": "rating",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
-                "template": {
-                  "jcr:title": "Rating",
-                  "fieldType": "number-input",
-                  "fd:viewType": "rating"
                 }
               }
             }

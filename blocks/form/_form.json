@@ -63,6 +63,9 @@
     {
       "...": "./models/form-components/_radio-group.json#/definitions"
     },
+    { 
+      "...": "./components/rating/_rating.json#/definitions" 
+    },
     {
       "...": "./models/form-components/_reset-button.json#/definitions"
     },
@@ -83,9 +86,6 @@
     },
     {
       "...": "./models/form-components/_text-input.json#/definitions"
-    },
-    { 
-      "...": "./components/rating/_rating.json#/definitions" 
     }
   ],
   "models": [
