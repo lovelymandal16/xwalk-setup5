@@ -19,22 +19,73 @@
       "...": "./components/accordion/_accordion.json#/definitions" 
     },
     {
-      "...": "./models/form-components/_*.json#/definitions"
+      "...": "./models/form-components/_recaptcha/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_checkbox-group/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_date-input/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_drop-down/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_email/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_file-input/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_form-button/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_form-fragment/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_form-image/_*.json#/definitions"
     },
     { 
       "...": "./components/modal/_modal.json#/definitions" 
     },
+    {
+      "...": "./models/form-components/_number-input/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_panel/_*.json#/definitions"
+    },
     { 
       "...": "./components/password/_password.json#/definitions" 
     },
-    { 
-      "...": "./components/rating/_rating.json#/definitions" 
+    {
+      "...": "./models/form-components/_telephone-input/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_radio-group/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_reset-button/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_checkbox/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_text/_*.json#/definitions"
+    },
+    {
+      "...": "./models/form-components/_submit-button/_*.json#/definitions"
     },
     { 
       "...": "./components/tnc/_tnc.json#/definitions" 
     },
     { 
       "...": "./components/wizard/_wizard.json#/definitions" 
+    },
+    {
+      "...": "./models/form-components/_text-input/_*.json#/definitions"
+    },
+    { 
+      "...": "./components/rating/_rating.json#/definitions" 
     }
   ],
   "models": [
