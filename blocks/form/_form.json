@@ -22,58 +22,58 @@
       "...": "./models/form-components/_recaptcha.json#/definitions"
     },
     {
-      "...": "./models/form-components/_checkbox-group/_*.json#/definitions"
+      "...": "./models/form-components/_checkbox-group.json#/definitions"
     },
     {
-      "...": "./models/form-components/_date-input/_*.json#/definitions"
+      "...": "./models/form-components/_date-input.json#/definitions"
     },
     {
-      "...": "./models/form-components/_drop-down/_*.json#/definitions"
+      "...": "./models/form-components/_drop-down.json#/definitions"
     },
     {
-      "...": "./models/form-components/_email/_*.json#/definitions"
+      "...": "./models/form-components/_email.json#/definitions"
     },
     {
-      "...": "./models/form-components/_file-input/_*.json#/definitions"
+      "...": "./models/form-components/_file-input.json#/definitions"
     },
     {
-      "...": "./models/form-components/_form-button/_*.json#/definitions"
+      "...": "./models/form-components/_button.json#/definitions"
     },
     {
-      "...": "./models/form-components/_form-fragment/_*.json#/definitions"
+      "...": "./models/form-components/_fragment.json#/definitions"
     },
     {
-      "...": "./models/form-components/_form-image/_*.json#/definitions"
+      "...": "./models/form-components/_image.json#/definitions"
     },
     { 
       "...": "./components/modal/_modal.json#/definitions" 
     },
     {
-      "...": "./models/form-components/_number-input/_*.json#/definitions"
+      "...": "./models/form-components/_number-input.json#/definitions"
     },
     {
-      "...": "./models/form-components/_panel/_*.json#/definitions"
+      "...": "./models/form-components/_panel.json#/definitions"
     },
     { 
       "...": "./components/password/_password.json#/definitions" 
     },
     {
-      "...": "./models/form-components/_telephone-input/_*.json#/definitions"
+      "...": "./models/form-components/_telephone-input.json#/definitions"
     },
     {
-      "...": "./models/form-components/_radio-group/_*.json#/definitions"
+      "...": "./models/form-components/_radio-group.json#/definitions"
     },
     {
-      "...": "./models/form-components/_reset-button/_*.json#/definitions"
+      "...": "./models/form-components/_reset-button.json#/definitions"
     },
     {
-      "...": "./models/form-components/_checkbox/_*.json#/definitions"
+      "...": "./models/form-components/_checkbox.json#/definitions"
     },
     {
-      "...": "./models/form-components/_text/_*.json#/definitions"
+      "...": "./models/form-components/_text.json#/definitions"
     },
     {
-      "...": "./models/form-components/_submit-button/_*.json#/definitions"
+      "...": "./models/form-components/_submit-button.json#/definitions"
     },
     { 
       "...": "./components/tnc/_tnc.json#/definitions" 
@@ -82,7 +82,7 @@
       "...": "./components/wizard/_wizard.json#/definitions" 
     },
     {
-      "...": "./models/form-components/_text-input/_*.json#/definitions"
+      "...": "./models/form-components/_text-input.json#/definitions"
     },
     { 
       "...": "./components/rating/_rating.json#/definitions" 
@@ -242,29 +242,29 @@
       "id": "form",
       "components": [
         "form-accordion",
-      "captcha", 
-      "checkbox-group",
-      "date-input",
-      "drop-down",
-      "email",
-      "file-input",
-      "form-button",
-      "form-fragment",
-      "form-image",
-      "modal",
-      "number-input",
-      "panel",
-      "password",
-      "telephone-input",
-      "radio-group",
-      "rating",
-      "form-reset-button",
-      "checkbox",
-      "plain-text",
-      "form-submit-button",
-      "tnc",
-      "text-input",
-      "wizard",
+        "captcha", 
+        "checkbox-group",
+        "date-input",
+        "drop-down",
+        "email",
+        "file-input",
+        "form-button",
+        "form-fragment",
+        "form-image",
+        "modal",
+        "number-input",
+        "panel",
+        "password",
+        "telephone-input",
+        "radio-group",
+        "rating",
+        "form-reset-button",
+        "checkbox",
+        "plain-text",
+        "form-submit-button",
+        "tnc",
+        "text-input",
+        "wizard",
         "range"
       ]
     }
