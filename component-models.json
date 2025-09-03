@@ -3906,7 +3906,7 @@
     "fields": [
       {
         "component": "container",
-        "name": "plain-text",
+        "name": "plain-text-label",
         "label": "Static Text / Display Text",
         "collapsible": false,
         "fields": [
