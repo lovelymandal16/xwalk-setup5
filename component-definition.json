@@ -589,15 +589,17 @@
           }
         },
         {
-          "title": "Text Field",
-          "id": "text-input",
+          "title": "Text",
+          "id": "plain-text",
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/fd/components/form/textinput/v1/textinput",
+                "resourceType": "core/fd/components/form/text/v1/text",
                 "template": {
-                  "jcr:title": "Text Field",
-                  "fieldType": "text-input"
+                  "jcr:title": "Text",
+                  "fieldType": "plain-text",
+                  "textIsRich": true,
+                  "value": "Adaptive Form Text Component"
                 }
               }
             }
