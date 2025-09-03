@@ -3906,8 +3906,15 @@
     "fields": [
       {
         "component": "container",
-        "name": "plain-text-label",
+        "name": "plain-text",
         "label": "Static Text / Display Text",
+        "collapsible": false,
+        "fields": []
+      },
+      {
+        "component": "tab",
+        "name": "basic",
+        "label": "Basic",
         "collapsible": false,
         "fields": [
           {
