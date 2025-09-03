@@ -2410,7 +2410,7 @@
     "fields": [
       {
         "component": "container",
-        "name": "basic",
+        "name": "number-input",
         "label": "Number Field",
         "collapsible": false,
         "fields": []
