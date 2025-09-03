@@ -500,14 +500,14 @@
           }
         },
         {
-          "title": "Static Text / Display Text",
+          "title": "Text",
           "id": "plain-text",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/fd/components/form/text/v1/text",
                 "template": {
-                  "jcr:title": "Static Text / Display Text",
+                  "jcr:title": "Text",
                   "fieldType": "plain-text",
                   "textIsRich": true,
                   "value": "Adaptive Form Text Component"
@@ -589,17 +589,15 @@
           }
         },
         {
-          "title": "Text",
-          "id": "plain-text",
+          "title": "Text Field",
+          "id": "text-input",
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/fd/components/form/text/v1/text",
+                "resourceType": "core/fd/components/form/textinput/v1/textinput",
                 "template": {
-                  "jcr:title": "Text",
-                  "fieldType": "plain-text",
-                  "textIsRich": true,
-                  "value": "Adaptive Form Text Component"
+                  "jcr:title": "Text Field",
+                  "fieldType": "text-input"
                 }
               }
             }
