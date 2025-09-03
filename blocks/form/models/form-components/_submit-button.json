@@ -23,13 +23,21 @@
       "fields": [
         {
           "component": "container",
-          "name": "basic",
+          "name": "form-submit-button",
           "label": "Submit Form Button",
           "collapsible": false,
-          "...": "../form-common/_basic-fields.json"
+          "fields": []
         },
         {
-          "...": "../form-common/_help-container.json"
+          "component": "tab",
+          "label": "Basic",
+          "name": "basic"
+        },
+        {
+          "...": "../form-common/_basic-fields.json#/fields"
+        },
+        {
+          "...": "../form-common/_help-container.json#/fields"
         }
       ]
     }

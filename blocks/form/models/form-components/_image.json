@@ -22,7 +22,7 @@
             "fields": [
                 {
                     "component": "container",
-                    "name": "basic",
+                    "name": "form-image",
                     "label": "Image",
                     "collapsible": false,
                     "fields": [

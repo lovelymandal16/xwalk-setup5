@@ -61,23 +61,27 @@
       "fields": [
         {
           "component": "container",
-          "name": "basic",
+          "name": "tnc",
           "label": "Terms and conditions",
           "collapsible": false,
-          "fields": [
-            {
-              "...": "../../models/form-common/_basic-input-fields.json#/fields"
-            },
-            {
-              "component": "boolean",
-              "name": "showLink",
-              "label": "Replace consent text with weblink(s)",
-              "valueType": "boolean"
-            }
-          ]
+          "fields": []
         },
         {
-        "...": "../../models/form-common/_help-container.json"
+          "component": "tab",
+          "label": "Basic",
+          "name": "basic"
+        },
+        {
+          "...": "../../models/form-common/_basic-input-fields.json#/fields"
+        },
+        {
+          "component": "boolean",
+          "name": "showLink",
+          "label": "Replace consent text with weblink(s)",
+          "valueType": "boolean"
+        },
+        {
+          "...": "../../models/form-common/_help-container.json#/fields"
         }
       ]
     }

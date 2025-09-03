@@ -23,20 +23,29 @@
       "fields": [
         {
           "component": "container",
-          "name": "basic",
+          "name": "rating",
           "label": "Rating",
           "collapsible": false,
-          "...": "../../models/form-common/_basic-input-fields.json"
+          "fields": []
         },
         {
-        "...": "../../models/form-common/_help-container.json"
+          "component": "tab",
+          "label": "Basic",
+          "name": "basic"
         },
         {
-          "component": "container",
-          "name": "validation",
+          "...": "../../models/form-common/_basic-input-fields.json#/fields"
+        },
+        {
+          "...": "../../models/form-common/_help-container.json#/fields"
+        },
+        {
+          "component": "tab",
           "label": "Validation",
-          "collapsible": true,
-          "...": "../../models/form-common/_number-validation-fields.json"
+          "name": "validation"
+        },
+        {
+          "...": "../../models/form-common/_number-validation-fields.json#/fields"
         }
       ]
     }

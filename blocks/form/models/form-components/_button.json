@@ -20,15 +20,24 @@
     {
       "id": "form-button",
       "fields": [
+        
+          {
+            "component": "container",
+            "name": "form-button",
+            "label": "Form Button",
+            "collapsible": false,
+            "fields": []
+            },
         {
-          "component": "container",
-          "name": "basic",
-          "label": "Form Button",
-          "collapsible": false,
-          "...": "../form-common/_basic-fields.json"
+          "component": "tab",
+          "label": "Basic",
+          "name": "basic"
         },
         {
-          "...": "../form-common/_help-container.json"
+          "...": "../form-common/_basic-fields.json#/fields"
+        },
+        {
+          "...": "../form-common/_help-container.json#/fields"
         }
       ]
     }

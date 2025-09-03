@@ -22,7 +22,7 @@
             "fields": [
                 {
                     "component": "container",
-                    "name": "basic",
+                    "name": "captcha",
                     "label": "Captcha (Invisible reCAPTCHA)",
                     "collapsible": false,
                     "fields": [

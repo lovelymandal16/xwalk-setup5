@@ -24,7 +24,7 @@
       "fields": [
         {
           "component": "container",
-          "name": "basic",
+          "name": "plain-text",
           "label": "Static Text / Display Text",
           "collapsible": false,
           "fields": [

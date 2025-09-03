@@ -22,27 +22,32 @@
       "fields": [
         {
           "component": "container",
-          "name": "basic",
+          "name": "telephone-input",
           "label": "Phone Number Field",
           "collapsible": false,
-          "fields": [
-            {
-              "...": "../form-common/_basic-input-placeholder-fields.json#/fields"
-            },
-            {
-              "...": "../form-common/_basic-input-default-value-fields.json#/fields"
-            }
-          ]
+          "fields": []
         },
         {
-          "...": "../form-common/_help-container.json"
+          "component": "tab",
+          "label": "Basic",
+          "name": "basic"
         },
         {
-          "component": "container",
-          "name": "validation",
+          "...": "../form-common/_basic-input-placeholder-fields.json#/fields"
+        },
+        {
+          "...": "../form-common/_basic-input-default-value-fields.json#/fields"
+        },
+        {
+          "...": "../form-common/_help-container.json#/fields"
+        },
+        {
+          "component": "tab",
           "label": "Validation",
-          "collapsible": true,
-          "...": "../form-common/_number-validation-fields.json"
+          "name": "validation"
+        },
+        {
+          "...": "../form-common/_number-validation-fields.json#/fields"
         }
       ]
     }
