@@ -21,8 +21,14 @@
   "models": [
     {
       "id": "plain-text",
-      "label": "Static Text / Display Text",
       "fields": [
+        {
+          "component": "container",
+          "name": "plain-text",
+          "label": "Static Text / Display Text",
+          "collapsible": false,
+          "fields": []
+        },
         {
           "component": "text",
           "name": "name",
