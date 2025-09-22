@@ -2988,7 +2988,8 @@ const urlEncoded = (data) => {
     return formData;
 };
 const submit = async (context, success, error, submitAs = 'multipart/form-data', input_data = null, action = '', metadata = null) => {
-    const endpoint = action || context.form.action;
+    //const endpoint = action || context.form.action;
+    const endpoint = 'L2Fkb2JlL2Zvcm1zL2FmL3N1Ym1pdC9jb250ZW50L2Zvcm1zL2FmL2xvdmVseS9tdWx0aWZvcm0vamNyOmNvbnRlbnQvcm9vdC9zZWN0aW9uL2Zvcm1fMTA4NzYwNTc0N18xNDg5NjMwNjky'; 
     let data = input_data;
     const attachments = await readAttachments(context.form, true);
     if (typeof data != 'object' || data == null) {
@@ -3001,7 +3002,7 @@ const submit = async (context, success, error, submitAs = 'multipart/form-data',
         formData = multipartFormData(submitDataAndMetaData, attachments);
         submitContentType = 'multipart/form-data';
     }
-    context.form.action= 'L2NvbnRlbnQvZm9ybXMvYWYvbG92ZWx5L211bHRpZm9ybS9qY3I6Y29udGVudC9yb290L3NlY3Rpb24vZm9ybV8xMDg3NjA1NzQ3XzE0ODk2MzA2OTI=';
+   // context.form.action= 'L2NvbnRlbnQvZm9ybXMvYWYvbG92ZWx5L211bHRpZm9ybS9qY3I6Y29udGVudC9yb290L3NlY3Rpb24vZm9ybV8xMDg3NjA1NzQ3XzE0ODk2MzA2OTI=';
     await request(context, endpoint, 'POST', formData, success, error, {
         'Content-Type': submitContentType
     });
