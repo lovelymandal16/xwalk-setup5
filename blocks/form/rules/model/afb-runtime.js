@@ -2092,6 +2092,9 @@ class Scriptable extends BaseNode {
         const funcName = action.isCustomEvent ? `custom_${action.type}` : action.type;
         const node = this.getCompiledEvent(eventName);
         const events = this._jsonModel.events?.[eventName];
+        if(eventName === 'submit'){
+            action.payload.action = '/adobe/forms/af/submit/' + btoa(this.form?._jsonModel?.properties['fd:path']);
+        }
         if (funcName in this && typeof this[funcName] === 'function') {
             this[funcName](action, context);
         }
@@ -2988,8 +2991,7 @@ const urlEncoded = (data) => {
     return formData;
 };
 const submit = async (context, success, error, submitAs = 'multipart/form-data', input_data = null, action = '', metadata = null) => {
-    //const endpoint = action || context.form.action;
-    const endpoint =  '/adobe/forms/af/submit/'+'L2NvbnRlbnQvZm9ybXMvYWYvbG92ZWx5L211bHRpZm9ybS9qY3I6Y29udGVudC9yb290L3NlY3Rpb24vZm9ybV8xMDg3NjA1NzQ3XzE0ODk2MzA2OTI=';
+    const endpoint = action || context.form.action;
     let data = input_data;
     const attachments = await readAttachments(context.form, true);
     if (typeof data != 'object' || data == null) {
@@ -3002,7 +3004,6 @@ const submit = async (context, success, error, submitAs = 'multipart/form-data',
         formData = multipartFormData(submitDataAndMetaData, attachments);
         submitContentType = 'multipart/form-data';
     }
-   // context.form.action= 'L2NvbnRlbnQvZm9ybXMvYWYvbG92ZWx5L211bHRpZm9ybS9qY3I6Y29udGVudC9yb290L3NlY3Rpb24vZm9ybV8xMDg3NjA1NzQ3XzE0ODk2MzA2OTI=';
     await request(context, endpoint, 'POST', formData, success, error, {
         'Content-Type': submitContentType
     });
