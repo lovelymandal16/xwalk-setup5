@@ -533,7 +533,7 @@ export default async function decorate(block) {
         : window.location.pathname;
       formDef.action = SUBMISSION_SERVICE + btoa(pathname || iframePath);
     } else {
-      formDef.action = getSubmitBaseUrl() + btoa('/adobe/forms/af/submit'+formDef.properties["fd:path"] || ''); //(formDef.action || '');
+      formDef.action = getSubmitBaseUrl() + '/adobe/forms/af/submit'+btoa(formDef.properties["fd:path"] || ''); //(formDef.action || '');
     }
     if (isDocumentBasedForm(formDef)) {
       const transform = new DocBasedFormToAF();
